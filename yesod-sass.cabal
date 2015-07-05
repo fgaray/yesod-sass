@@ -26,6 +26,7 @@ license:             BSD3
 -- The file containing the license text.
 license-file:        LICENSE
 
+
 -- The package author(s).
 author:              Felipe Garay
 
@@ -47,6 +48,9 @@ build-type:          Simple
 -- Constraint on the version of Cabal needed to build this package.
 cabal-version:       >=1.10
 
+source-repository head
+  type:     git
+  location: git@github.com:fgaray/yesod-sass.git
 
 library
   -- Modules exported by the library.
