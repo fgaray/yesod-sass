@@ -1,7 +1,7 @@
 {-# LANGUAGE TemplateHaskell #-}
 -- | In this module there is a helper function called 'wsass''.  You need to use
--- it to define another function using 'wsass'' passing in the first argument
--- the path to be used to resolve @include like this:
+-- it to define another function where the first argument is the path to be used
+-- to resolve @include, like this:
 --
 -- >>> let wsass = wass' "sass_include/"
 --
